@@ -14,7 +14,7 @@ public class ConnectionResponse {
 	}
 
 	private void jsonResponse() {
-		String url = "https://reqres.in/api/unknown/2";
+		String url = "https://reqres.in/api/unknown";
 		try {
 			URL connection = new URL(url);
 			HttpURLConnection httpConnection = (HttpURLConnection) connection.openConnection();
