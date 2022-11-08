@@ -1,8 +1,12 @@
 package problems;
 
+import java.util.Scanner;
+
 public class FrequencyString {
 	public static void main(String[] args) {
-		String str="xyyyzzzabb",s="";
+		String s="";
+		Scanner scanner=new Scanner(System.in);
+		String str=scanner.nextLine();
 		int index=0;
 		char c = 0;
 		int length=str.length();
