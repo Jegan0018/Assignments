@@ -1,10 +1,17 @@
 package problems;
 
 import java.util.Arrays;
+import java.util.Scanner;
 
 public class PushNumbers {
 	public static void main(String[] args) {
-		int[] array= {1, 9, 8, 4, 7, 7, 2, 0, 7, 6, 7};
+		System.out.println("Enter Array Length");
+		Scanner scanner=new Scanner(System.in);
+		int length=scanner.nextInt();
+		int array[]=new int[length];
+		for(int i=0;i<length;i++) {
+			array[i]= scanner.nextInt();
+		}
 		int[] result=new int[array.length];
 		int k=0,count=0;
 		for(int i=0;i<array.length;i++) {
