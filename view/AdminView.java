@@ -24,14 +24,14 @@ public class AdminView {
 				case 2:
 					new SearchFlightView().searchFlight(routesList);
 					break;
-//				case 3:
-//					new ListTicketsBooked().listTickets();
-//					break;
-//				case 4:
-//					new SearchPassenger().searchPassenger();
-//					break;
-//				default :
-//					break;
+				case 3:
+					new ListTicketsBooked().listTickets();
+					break;
+				case 4:
+					new SearchPassenger().searchPassenger();
+					break;
+				default :
+					break;
 				}
 			} while (input != 6);
 		} catch (Exception exception) {
